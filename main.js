@@ -28,6 +28,22 @@ function giveBirthday(str){
   }
 }
 
+function marry(str, str1){
+  str.married = true;
+  str1.married = true;
+  str.spouseName = getFullName(str1);
+  str1.spouseName = getFullName(str);
+}
+
+
+function divorce(str, str1){
+  str.married = false;
+  str1.married = false;
+  delete str.spouseName;
+  delete str1.spouseName;
+}
+
+
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
