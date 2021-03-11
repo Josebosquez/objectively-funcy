@@ -16,6 +16,18 @@ function setFirstName (str, ronny){
   str.firstName = ronny
 }
 
+function setAge(str, ofStr){
+  str.age = ofStr
+}
+
+function giveBirthday(str){
+    if (str.age === undefined){
+      return str.age = 1;
+    }else {
+      return str.age = str.age + 1;
+  }
+}
+
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
