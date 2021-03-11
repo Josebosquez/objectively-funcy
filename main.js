@@ -9,7 +9,11 @@ function getLastName (str){
 }
 
 function getFullName(str){
-  return str.firstName + " " + str.lastName
+  return str.firstName + " " + str.lastName;
+}
+
+function setFirstName (str, ronny){
+  str.firstName = ronny
 }
 
 // Our code here. Don't touch!
