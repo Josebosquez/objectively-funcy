@@ -4,6 +4,9 @@ function getFirstName (str){
   return str.firstName;
 }
 
+function getLastName (str){
+  return str.lastName;
+}
 
 
 // Our code here. Don't touch!
