@@ -8,6 +8,9 @@ function getLastName (str){
   return str.lastName;
 }
 
+function getFullName(str){
+  return str.firstName + " " + str.lastName
+}
 
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
