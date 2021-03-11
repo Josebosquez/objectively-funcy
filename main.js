@@ -1,6 +1,8 @@
 // Your code here.
 
-
+function getFirstName (str){
+  return str.firstName;
+}
 
 
 
